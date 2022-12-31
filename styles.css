@@ -1,0 +1,63 @@
+.row-one, .row-two{
+    height: 40vh;
+    
+}
+
+/*tablet and mobile responsivity*/
+ @media (min-width: 370px) and (max-width: 900px) { 
+    .col-one{
+        display: flex;
+        order: 1;
+    }
+    .col-four{
+        display: flex;
+        order: 2;
+    }
+    .col-five{
+        display: flex;
+        order: 3;
+        flex-grow: 1;
+    }
+    .col-eight, .col-two, .col-three, .col-seven{
+        display: none;
+    }
+    .col-nine{
+        display: flex;
+        order: 4;
+        flex-grow: 1;
+    }
+    .col-six{
+        display: flex;
+        order: 5;
+        flex-grow: 1;
+    }
+ }
+/*temporary*/
+.col-one{
+    background-color: red;
+}
+.col-two{
+    background-color: lime;
+}
+.col-three{
+    background-color: pink;
+}
+.col-four{
+    background-color: aqua;
+}
+.col-five{
+    background-color: blue;
+}
+.col-six{
+    background-color: yellow;
+}
+.col-seven{
+    background-color: orange;
+}
+.col-eight{
+    background-color: purple;
+}
+.col-nine{
+    background-color: green;
+    
+}
